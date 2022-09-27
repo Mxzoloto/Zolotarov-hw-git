@@ -28,7 +28,7 @@ if (hamb2 >= 4 && potato2 >= 1) {
 let price1 = 1000,
   price2 = 1900,
   price3 = 1900;
-if (price3 >= 1000 && price3 <= 1900) {
+if (price3 >= price1 && price3 <= price2) {
   console.log(true);
 } else {
   console.log(false);
